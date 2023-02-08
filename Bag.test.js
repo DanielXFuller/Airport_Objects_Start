@@ -11,3 +11,4 @@ describe('Bag class', () => {
         expect(() => new Bag()).toThrowError('bag needs weight')
     })
 })
+
