@@ -31,6 +31,6 @@ describe('Airport object', () => {
 		testPerson.addBag(testBag)
 		testPlane.addPassenger(testPerson)
 		testAirport.addPlane(testPlane)
-		expect(testAirport.planes[0].passengers[0].bags[0].weight).toBe(55)
+		expect(testAirport.planes[0].passengers[0].bags[0].weight.weight).toBe(55)
 	})
 })
